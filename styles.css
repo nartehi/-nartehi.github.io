@@ -1,0 +1,25 @@
+body{
+    color: white;
+    background-color: #a0dcd7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 1.5rem
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 1.5rem;
+    text-align: center
+}
