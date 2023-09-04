@@ -1,6 +1,5 @@
 body{
-    color: white;
-    background-color: #a0dcd7;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -22,4 +21,37 @@ h2{
     line-height: 1.2;
     margin: 0 0 1.5rem;
     text-align: center
+}
+
+/* Navigation styles */
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+img {
+max-width: 100%; 
+margin-top: 20px; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #723f3f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change the color on hover */
 }
