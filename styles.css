@@ -1,18 +1,34 @@
-body{
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+body {
+    margin: 0; 
+    padding: 0; /* Remove default padding */
+    background-image: url('webpage.jpg');  
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+     
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto', sans-serif;
+header{
+   
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+ section{
+    text-decoration: overline;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color: white;
+ }
+h1{
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.2;
-    margin: 0 0 1.5rem
+    margin: 0 0 1.5rem;
+    text-align: center
 }
 
 h2{
@@ -24,34 +40,51 @@ h2{
 }
 
 /* Navigation styles */
-header {
+.header {
     background-color: grey;
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
-img {
-max-width: 100%; 
-margin-top: 20px; 
-}
+
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; 
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 60px;
 }
 
 nav a {
     text-decoration: none;
-    color: #723f3f;
+    color: #5fa6f7;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ffcc00; /* Change the color on hover */
+    color: #2891ba; /* Change the color on hover */
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+    text-align: center;
+    color: white;
+
+}
+a {
+text-decoration: none;
+color: #23ccf6;
+font-weight: bold;
+font-size: 18px;
+transition: color 0.3s;
+}
+a:hover{
+    color: #a3f953;
 }
