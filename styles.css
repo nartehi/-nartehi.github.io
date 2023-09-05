@@ -129,3 +129,10 @@ a:hover{
     color: #666;
     margin-bottom: 15px;
 }
+footer{
+    background:#2b3130 ;
+    padding: 5%  0;
+    color:rgb(229, 229, 229) !important;
+    border-radius: 5%;
+    grid-column: calc(45,56,33);  
+}
